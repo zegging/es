@@ -1,0 +1,797 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 4,
+    "successful": 4,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 126.127914,
+    "hits": [
+      {
+        "_shard": "[custom_brand_sku_v3_4_en_us][0]",
+        "_node": "Soz9RsMwSQ2o0RMntDxIrQ",
+        "_index": "custom_brand_sku_v3_4_en_us",
+        "_type": "_doc",
+        "_id": "827",
+        "_score": 126.127914,
+        "_source": {
+          "sku_id": 827,
+          "brand_good_id": 472201371,
+          "brand_good_name": "Peninsula Door Panels w/o TK",
+          "sku_name": "Peninsula Door Panels w/o TK",
+          "sku_goods_code": "PBDDP30",
+          "preview_img_url": "https://qhrenderpicoss.kujiale.com/r/2025/03/18/L4D1500S183B5ENDPLDSL4YUWL5V6LUFX7AZUDA8_400x400.jpg",
+          "deleted": false,
+          "category_id": 1193295,
+          "visible": true,
+          "brand_library_relation_id": [
+            324
+          ]
+        },
+        "_explanation": {
+          "value": 126.127914,
+          "description": "sum of:",
+          "details": [
+            {
+              "value": 126.127914,
+              "description": "weight(sku_name:\"l ls (sa shel si she sing stan star stom susa sin squar sel sk squ sink sse singl s sus susan sq start sta san stand sul sh sto su ssed st se sula shelf ss squa set sed)\" in 103) [PerFieldSimilarity], result of:",
+              "details": [
+                {
+                  "value": 126.127914,
+                  "description": "score(doc=103,freq=1.0 = phraseFreq=1.0\n), product of:",
+                  "details": [
+                    {
+                      "value": 157.94911,
+                      "description": "idf(), sum of:",
+                      "details": [
+                        {
+                          "value": 0.14261411,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 616,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.861924,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 5,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.6948705,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 6,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 2.5324318,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 56,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.1243253,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 11,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 2.5324318,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 56,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 5.3139095,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 3,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.4986196,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 21,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 6.161207,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 1,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.9639828,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 13,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.6948705,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 6,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.1243253,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 11,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.4531572,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 22,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 5.6503816,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 2,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.3153806,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 9,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.4531572,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 22,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.426606,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 8,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 6.161207,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 1,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 5.3139095,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 3,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 0.7304008,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 342,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.6948705,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 6,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.6948705,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 6,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.4531572,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 22,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 6.161207,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 1,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.4531572,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 22,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.6948705,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 6,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.4986196,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 21,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 2.296975,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 71,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 2.5324318,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 56,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.9639828,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 13,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 2.2163944,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 77,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 6.161207,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 1,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 2.9971397,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 35,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 1.5136164,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 156,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 2.296975,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 71,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 2.5324318,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 56,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 6.161207,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 1,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 3.4531572,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 22,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 4.861924,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 5,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        },
+                        {
+                          "value": 6.161207,
+                          "description": "idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                          "details": [
+                            {
+                              "value": 1,
+                              "description": "docFreq",
+                              "details": []
+                            },
+                            {
+                              "value": 710,
+                              "description": "docCount",
+                              "details": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "value": 0.7985351,
+                      "description": "tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                      "details": [
+                        {
+                          "value": 1,
+                          "description": "phraseFreq=1.0",
+                          "details": []
+                        },
+                        {
+                          "value": 1.2,
+                          "description": "parameter k1",
+                          "details": []
+                        },
+                        {
+                          "value": 0.75,
+                          "description": "parameter b",
+                          "details": []
+                        },
+                        {
+                          "value": 42.060562,
+                          "description": "avgFieldLength",
+                          "details": []
+                        },
+                        {
+                          "value": 68,
+                          "description": "fieldLength",
+                          "details": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": 0,
+              "description": "match on required clause, product of:",
+              "details": [
+                {
+                  "value": 0,
+                  "description": "# clause",
+                  "details": []
+                },
+                {
+                  "value": 1,
+                  "description": "visible:T",
+                  "details": []
+                }
+              ]
+            },
+            {
+              "value": 0,
+              "description": "match on required clause, product of:",
+              "details": [
+                {
+                  "value": 0,
+                  "description": "# clause",
+                  "details": []
+                },
+                {
+                  "value": 1,
+                  "description": "deleted:F",
+                  "details": []
+                }
+              ]
+            },
+            {
+              "value": 0,
+              "description": "match on required clause, product of:",
+              "details": [
+                {
+                  "value": 0,
+                  "description": "# clause",
+                  "details": []
+                },
+                {
+                  "value": 1,
+                  "description": "sku_name.raw:Peninsula Door Panels w/o TK",
+                  "details": []
+                }
+              ]
+            },
+            {
+              "value": 0,
+              "description": "match on required clause, product of:",
+              "details": [
+                {
+                  "value": 0,
+                  "description": "# clause",
+                  "details": []
+                },
+                {
+                  "value": 1,
+                  "description": "sku_goods_code.raw:PBDDP30",
+                  "details": []
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
